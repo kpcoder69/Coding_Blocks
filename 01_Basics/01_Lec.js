@@ -1,13 +1,13 @@
+//******************************************************************************************************************************************************* */
+/*Js is the lang of web 
+FE ---> JS 
 
-// Js is the lang of web 
-// FE ---> JS 
+browser ---> 
+server ---> env node js ---> to run js outside browser 
 
-// browser ---> 
-// server ---> env node js ---> to run js outside browser 
+1 varibles in js 
 
-//1 varibles in js 
-
-//console.log(1);  //---> it is same like print statement
+console.log(1);  //---> it is same like print statement */
 
 //**********************************************************************************************************************************************************
 // LET ---> block scope {    }
