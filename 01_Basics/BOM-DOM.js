@@ -9,7 +9,7 @@
  window.alert("hello ");
 
  window --> document , history , screen , navigator , location
- represents the window (browser's object )
+ represents the window (browser's object ) -------->>>breif explain inside VS code
 
  Methods inside window--> alert(), confirm(), prompt(), open(), close(),setTimeOut() */
 
@@ -73,7 +73,7 @@ document.getElementsByName() */
         document.writeln("<br/>navigator.userAgent: " + navigator.userAgent);
         document.writeln("<br/>navigator.platform: " + navigator.platform);
         document.writeln("<br/>navigator.onLine: " + navigator.onLine);
-          document.writeln("<br/>Sv: " + navigator.onLine);
+        document.writeln("<br/>Sv: " + navigator.onLine);
 
     </script>
 </body> 
