@@ -6,8 +6,11 @@
 let color = "Yellow";
 let x = true;
 const obj = { first: "ABC", second: "XYZ" };//object
+console.log(obj);
+
 
 const nums = [1, 2, 3] // array object 
+console.log(nums);
 console.log(typeof nums);
 
 a = new Date();
@@ -19,20 +22,18 @@ console.log(typeof a);*/
 let b = "V" + 16
 let c = 16+4 + "V"  // js evaluates exp from L -> R(left to right)
 console.log(c);
-console.log(typeof a);
-*/
+console.log(typeof a);*/
 
-
-/*let x;
+/*
+let x;
 x = 5;
 x = "ABC";
 console.log(x);
 
 let d = "ABC";   //---> either use in double quotes and single quotes it consider as string
-let e = 'ABC'
-
+let e = 'ABC';
 console.log(d == e); // data
-console.log(d === e);// dta +type*/
+console.log(d === e);// data + type */
 
 /*console.log(typeof (3 + 4))
 let x;
@@ -61,7 +62,7 @@ console.log(obj.concat())
 
 //let x = new String();
 
-//rest parameter   ---> in java we say var args parameter
+//rest parameter   --->same thing in java we say var args parameter
 /*let x = abc(2, 3, 3, 4, 4, 4, 44, 4, 4, 4, 4, 4, 4, 4, 4);
 function abc(...args) {
     let s = 0;
@@ -73,14 +74,16 @@ return s;
 }
 console.log(x); */
 
-
-/*function mul(a, b) {
+/*
+function mul(a, b) {
     return a * b;
 }
 window.mul(2, 3);  //<--- this si run inside DOM which advance concept we no need to learn yet
 mul(2, 3); //*****browser */
 
-/*console.log('' == "");
+
+/*
+console.log('' == "");
 console.log('' === "");
 console.log(null === undefined) // false 
 console.log(null == undefined)  // true // special case   
@@ -94,11 +97,10 @@ console.log(undefined < 0) // false
 console.log(undefined > 0)//false
 console.log(undefined <= 0)// false 
 console.log(undefined >= 0) // false 
-//undefined --> NAN
-*/
+//undefined --> NAN */
 
-
-/*console.log([0] == '')
+/*
+console.log([0] == '')
 console.log([0] == 0)
 console.log([0] == '')
 console.log([0] == 0)
@@ -119,7 +121,7 @@ console.log(obj.d())// 2
 console.log(obj.e())// 2 
 
 this //--> refers to the object 
-console.log(this)// --> global object */
+console.log(this)// --> global object  */
 
 
 
