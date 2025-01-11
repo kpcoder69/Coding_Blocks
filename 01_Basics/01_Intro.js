@@ -2,24 +2,21 @@
 /*Js is the lang of web 
 FE ---> JS 
 
-browser ---> 
-server ---> env node js ---> to run js outside browser 
+browser ---> fronted
+server ---> backend
 
-1 varibles in js 
+env node js ---> to run js outside browser 
 
 console.log(1);  //---> it is same like print statement */
 
 //**********************************************************************************************************************************************************
+// 1 varibles in js 
 // LET ---> block scope {    }
-
-/*let x = 1;
+/*
+let x = 1;
 let msg = "Hello";
 console.log(msg);
 console.log(x);
-
-
-
-
 
 //QPS 1
 if (x==1) {
@@ -29,10 +26,6 @@ if (x==1) {
 console.log(msg);
 // console.log(age); // reference error ---> 
 
-
-
-
-
 //QPS 2
 function ge(){
   let x = 10;
@@ -40,35 +33,28 @@ function ge(){
 }
 ge();
 
-
-
-
-
-
 //QPS 3
 function eg() {
-    let x = 10;
-    if (x==10){
+    let x = 11;
+    if (x==11){
       let y=5;
       console.log(x + y);
     }
     //console.log(y);  //---> give reference error
+    console.log(x);
 }
-eg();                  // Let cannot be redeclared  */
+eg();                  // Let cannot be redeclared  
 
-
+*/
 
 
 //************************************************************************************************************************************************* */
 //VAR
-
-/*console.log(x);
+/*
+console.log(x);
 var x;                //itz output is undefined, we also called Varaible Hosting
 
-
-
 //QPS 4
-
 var x = 1;
 console.log(x);          //--> here we see the redeclare of var is possible
 function a() {
@@ -79,16 +65,15 @@ a();
 var h = "inside function"; 
 
 
-var z = 1;
-var z = 2;       // ----> hence redeclareation is possible only in var not let bcz let show error
-let x = 1;
-let x = 2;    */
-
-
+// var z = 1;
+// var z = 2;       // ----> hence redeclareation is possible only in var not let bcz let show error
+// let x = 1;
+// let x = 2;    */
 
 
 // QPS 5
-/*function test(){
+/*
+function test(){
   var x = 31;
   if(1){
     var x = 71;
@@ -100,8 +85,8 @@ let x = 2;    */
   //console.log(y);  //----> itz give error let scope alwasy inside the block 
   
 }
-test(); */
-
+test(); 
+*/
 
 
 
@@ -127,8 +112,9 @@ function a() {
 
 
 
-//QPS 6
-/*const func1 = () => console.log(1)
+//QPS 6 
+/*
+const func1 = () => console.log(1)
 func1()
 func2()
 function func2() {
@@ -137,14 +123,12 @@ function func2() {
 // func3()
 var func3 = function func4() {   //---> type error shows
   console.log(3)
-} */
-
-
-
+} 
+*/
 
 // QPS 7
-
-/*const a = 1
+/*
+const a = 1
 console.log(a)  
 
 var b
@@ -155,11 +139,8 @@ console.log(c)
 var c = 3
 
 console.log(d)   // --> it gives error
-let d = 2 */
-
-
-
-
+let d = 2 
+*/
 //*************************************************************************************************************************************************** */
 // IIFE -- > immidiately Inoke Function Expression
 // explain concept of IIFE 
@@ -194,9 +175,11 @@ function b(){
 b=1
 console.log(typeof b);
 function c(){
+
 }
 var c = 1;
 console.log(typeof c);
+
 var d =1;
 (function (){
   d = '2'
@@ -211,12 +194,9 @@ const f = function e(){
 
 }*/
 
-
-
-
 //QPS 9
-
-/*let foo = 10;
+/*
+let foo = 10;
 function func1() {
     console.log(foo)    // ---> undefined
     var foo = 1;
@@ -232,20 +212,14 @@ function func2() {
 func2 () */
 
 
-
-
 // One more concept of IIFE
 /*(() => {
             //without using name of function we writte the code of function by the help of IIFE
 })*/
 
 
-
-
-
-
 //QPS 10
-
+/*
 (() => {
   if (!fn) {
     function fn() {
@@ -281,7 +255,7 @@ function fn1() {
 })()  
 
 
-
+*/
 
 
 
