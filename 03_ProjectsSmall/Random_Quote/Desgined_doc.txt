@@ -1,0 +1,11 @@
+Project ==> Architecture; LLD; HLD 
+
+Random Quotes Generator
+
+Requirement :
+button ==> On Clicking Randomly quotes are shown
+
+Tech :
+==> HTML(UI)
+==> CSS(Styling)
+==> JavaScript(functionality) 
