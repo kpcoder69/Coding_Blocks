@@ -1,16 +1,28 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #71d577;
+    background-color: #a0a17a;
     height:100vh;
     margin:0;
 }
 .container{
-    background-color: rgb(210, 124, 17);
+    background-color: rgb(223, 208, 193);
     text-align : center;
     padding: 2em;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
     border-radius : 10px;
 }
+ button{
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 2;
+    background-color: #94f0e7;
+    color: rgb(35, 1, 255);
+    cursor: pointer;
+ }
+ button:hover{
+    background-color:  #219e92;
+ }
