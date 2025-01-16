@@ -1,0 +1,13 @@
+Guess Game -->
+Randomly gen no --> 3 chances
+U lost
+
+Guess a no between 1 to 100
+
+3 chances
+O/P --> correct
+    --> less or greater
+
+    HTML
+    CSS
+    JS
