@@ -8,11 +8,21 @@ function check(){
     if(AttemptLeft > 1){
         if(guess == no){
             resultMessage.textContent = 'congrats! crrct guess';
-            disableGame();w
+            disableGame();
             
         }
+        else{
+            AttemptLeft-- ;
+            resultMessage.textContent = guess > no? "Higher" : "Lower";
+            attemptMessage.textContent = `Attempt Left:${AttemptLeft}`;
+        }
+    }
+    else{
+        resultMessage.textContent = "attempts exhausted";
+        disableGame();
     }
 }
-function disableGame{
-    
+function disableGame() {
+    document.getElementById('guessInput').disabled = true;
+    document.querySelector('button[onclick ="check()"]').disabled = true;
 }
