@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    overflow: hidden;
+    cursor: none;
+}
+
+.rocket{
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: url('rocket.jpg') no-repeat center center;
+    background-size: contain;
+    pointer-events: none;
+
+}
